@@ -22,9 +22,9 @@ public class DataAccess
 {
 	// Some database-specific details we'll need
 	private static final String DB_DRIVER = "com.mysql.jdbc.Driver";
-	private static final String DB_URL = "jdbc:mysql://db:3306/MyShuttleDb";
-	private static final String DB_USER = "user";
-	private static final String DB_PASS = "password";
+	private static final String DB_URL = "jdbc:mysql://ameloko.c5goisyc4heh.eu-north-1.rds.amazonaws.com:3306/ameloko";
+	private static final String DB_USER = "emmanu";
+	private static final String DB_PASS = "$$$$$$123456Six";
 	
 	private static Connection theConnection;
 	static {
